@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="George Kanchanavaleerat mock presentation ~ Udacity assignment #1, responsive webpage.">
+<title>Project 1 ~ Front End Web Developer Nanodegree</title>
+<link rel="icon" type="image/vnd.microsoft.icon" href="images/favicon.ico" />
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="CSS/style.css" />
+<script src="js/jquery-2.1.1.js" type="text/javascript"></script>
+<script src="js/modal.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6"><img class="logo" src="images/p1b_logo.jpg" alt="logo"></div>
+    <div class="col-md-6 text-right text-uppercase">
+      <h1 class="text-thin">George Kanchanavaleerat</h1>
+      <h3>Front-end Fruit Ninja</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <hr>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12"> <img class="img-responsive center-block" src="images/p1b.jpg"> </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="text-muted">Featured Work</h2>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="col-md-4"> <img src="images/p1b_banana.jpg" alt="banana" class="img-responsive" data-toggle="modal" data-target="#BananaModal">
+      <h3 class="text-uppercase">Banana</h3>
+      <p><a href="https://github.com/udacity/Banana">https://github.com/udacity/Banana</a></p>
+    </div>
+    <div class="col-md-4"> <img src="images/p1b_grapes.jpg" alt="Grapes" class="img-responsive" data-toggle="modal" data-target="#GrapesModal">
+      <h3 class="text-uppercase">Grapes</h3>
+      <p><a href="https://github.com/udacity/Grapes">https://github.com/udacity/Grapes</a></p>
+    </div>
+    <div class="col-md-4"> <img src="images/p1b_kiwi.jpg" alt="Kiwi" class="img-responsive" data-toggle="modal" data-target="#KiwiModal">
+      <h3 class="text-uppercase">Kiwi</h3>
+      <p><a href="https://github.com/udacity/Kiwi">https://github.com/udacity/Kiwi</a></p>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="col-md-4"> <img src="images/p1b_pear.jpg" alt="pear" class="img-responsive" data-toggle="modal" data-target="#PearModal">
+      <h3 class="text-uppercase">Pear</h3>
+      <p><a href="https://github.com/udacity/Banana">https://github.com/udacity/Pear</a></p>
+    </div>
+    <div class="col-md-4"> <img src="images/p1b_persimmon.jpg" alt="Persimmon" class="img-responsive" data-toggle="modal" data-target="#PersimmonModal">
+      <h3 class="text-uppercase">Persimmon</h3>
+      <p><a href="https://github.com/udacity/Persimmon">https://github.com/udacity/Persimmon</a></p>
+    </div>
+    <div class="col-md-4"> <img src="images/p1b_strawberry.jpg" alt="Strawberry" class="img-responsive" data-toggle="modal" data-target="#StrawberryModal">
+      <h3 class="text-uppercase">Strawberry</h3>
+      <p><a href="https://github.com/udacity/Kiwi">https://github.com/udacity/Strawberry</a></p>
+    </div>
+  </div>
+</div>
+
+<!-- Modal: Banana -->
+<div class="modal fade" id="BananaModal" tabindex="-1" role="dialog" aria-labelledby="BananaModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Banana Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+        	<div class="col-md-6"><img src="images/p1b_banana.jpg" alt="banana" class="img-responsive"></div>
+          <div class="col-md-6"> Thank you for image provided by: <a href="http://www.schoolphotoproject.com">SchoolPhotoProject.com</a><br>
+            A Totally FREE Stock Photos Site! </div>
+        </div>
+      </div>
+      <!--div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div--> 
+    </div>
+    <!-- /.modal-content --> 
+  </div>
+  <!-- /.modal-dialog --> 
+</div>
+<!-- /.modal --> 
+
+<!-- Modal: Grapes -->
+<div class="modal fade" id="GrapesModal" tabindex="-1" role="dialog" aria-labelledby="GrapesModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Grapes Modal title</h4>
+      </div>
+      <div class="modal-body">
+      	<div class="row">
+        	<div class="col-md-6"><img src="images/p1b_grapes.jpg" alt="Grapes" class="img-responsive"></div>
+            <div class="col-md-6"><p>Grapes Modal contents ...</p></div>
+        </div>
+      </div>
+      <!--div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div--> 
+    </div>
+    <!-- /.modal-content --> 
+  </div>
+  <!-- /.modal-dialog --> 
+</div>
+<!-- /.modal --> 
+
+<!-- Modal: Kiwi -->
+<div class="modal fade" id="KiwiModal" tabindex="-1" role="dialog" aria-labelledby="KiwiModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Kiwi Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6"><img src="images/p1b_kiwi.jpg" alt="Kiwi" class="img-responsive"></div>
+          <div class="col-md-6"> Thank you for image provided by: <a href="http://www.schoolphotoproject.com">SchoolPhotoProject.com</a><br>
+            A Totally FREE Stock Photos Site! </div>
+        </div>
+      </div>
+      <!--div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div--> 
+    </div>
+    <!-- /.modal-content --> 
+  </div>
+  <!-- /.modal-dialog --> 
+</div>
+<!-- /.modal --> 
+
+<!-- Modal: Pear -->
+<div class="modal fade" id="PearModal" tabindex="-1" role="dialog" aria-labelledby="PearModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Pear Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6"><img src="images/p1b_pear.jpg" alt="pear" class="img-responsive"></div>
+          <div class="col-md-6"> Thank you for image provided by: <a href="http://www.schoolphotoproject.com">SchoolPhotoProject.com</a><br>
+            A Totally FREE Stock Photos Site! </div>
+        </div>
+      </div>
+      <!--div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div--> 
+    </div>
+    <!-- /.modal-content --> 
+  </div>
+  <!-- /.modal-dialog --> 
+</div>
+<!-- /.modal --> 
+
+<!-- Modal: Persimmon -->
+<div class="modal fade" id="PersimmonModal" tabindex="-1" role="dialog" aria-labelledby="PersimmonModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Persimmon Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6"><img src="images/p1b_persimmon.jpg" alt="Persimmon" class="img-responsive"></div>
+          <div class="col-md-6"> Thank you for image provided by: <a href="http://www.schoolphotoproject.com">SchoolPhotoProject.com</a><br>
+            A Totally FREE Stock Photos Site! </div>
+        </div>
+      </div>
+      <!--div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div--> 
+    </div>
+    <!-- /.modal-content --> 
+  </div>
+  <!-- /.modal-dialog --> 
+</div>
+<!-- /.modal --> 
+
+<!-- Modal: Persimmon -->
+<div class="modal fade" id="StrawberryModal" tabindex="-1" role="dialog" aria-labelledby="StrawberryModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Strawberry Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6"><img src="images/p1b_strawberry.jpg" alt="Strawberry" class="img-responsive"></div>
+          <div class="col-md-6"> Thank you for image provided by: <a href="http://www.schoolphotoproject.com">SchoolPhotoProject.com</a><br>
+            A Totally FREE Stock Photos Site! </div>
+        </div>
+      </div>
+      <!--div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div--> 
+    </div>
+    <!-- /.modal-content --> 
+  </div>
+  <!-- /.modal-dialog --> 
+</div>
+<!-- /.modal -->
+
+</body>
+</html>

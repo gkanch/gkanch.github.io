@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+img.logo {
+	padding: 10px;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+.text-muted {
+	color: #555555;
+}
+.text-thin {
+	font-wieght: 100;
+}
+.title-super {
+	font-size: 60px;
+}
+.title-log {
+	margin-top: 20px;
+}
+hr {
+	background: #eeeeee;
+	border: 0;
+	height: 4px;
+}
+
+@media (max-width: 960px) {
+h1, h2, h3, h4 {
+	text-align: center;
+}
+img {
+	margin: 0 auto;
+}
+img.logo {
+	padding: 5px;
+ .center-block();
+}
+.title-logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+}
+
+@media (max-width: 500px) {
+img.logo {
+	width: 50px;
+	padding: 0px;
+	align-content: center;
+}
+}
